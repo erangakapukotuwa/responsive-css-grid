@@ -1,0 +1,76 @@
+.wrapper { 
+	overflow: hidden; 
+	width: 100%;
+}
+.wrapper .row { 
+	overflow: hidden;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+.wrapper .row .block { 
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+.wrapper .row .one-block {
+	width: 7.333333%;
+}
+.wrapper .row .two-block {
+	width: 15.59999%;
+}
+.wrapper .row .three-block {
+	width: 24%;
+}
+.wrapper .row .four-block {
+	width: 32.333333%;
+}
+.wrapper .row .five-block {
+	width: 40.59999%;
+}
+.wrapper .row .six-block {
+	width: 49%;
+}
+.wrapper .row .seven-block {
+	width: 57.333333%;
+}
+.wrapper .row .eight-block {
+	width: 65.59999%;
+}
+.wrapper .row .nine-block {
+	width: 74%;
+}
+.wrapper .row .ten-block {
+	width: 82.333333%;
+}
+.wrapper .row .eleven-block {
+	width: 90.59999%;
+}
+.wrapper .row .twelve-block {
+	width: 99%;
+}
+
+@media only screen and (max-width: 768px){
+	.wrapper .row.two-in-tablet .block {
+		width: 48%;
+		margin-bottom: 20px;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.wrapper .row.one-in-tablet .block {
+		width: 99%;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.wrapper .row.two-in-mobile .block {
+		width: 46%;
+		margin-bottom: 20px;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.wrapper .row.one-in-mobile .block {
+		width: 99%;
+		margin-bottom: 20px;
+	}
+}

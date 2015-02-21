@@ -1,0 +1,12 @@
+.wrapper { 
+	max-width: 1200px;
+	margin: auto; 
+}
+.wrapper .row {
+	margin-bottom: 20px;
+}
+.wrapper .row .block {  
+	height: 20px;
+	background: #83BAE8; 
+	float: left; 
+}
