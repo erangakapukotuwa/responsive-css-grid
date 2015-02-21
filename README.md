@@ -35,22 +35,25 @@ Add the html into the `body` section.
 
 > Please make sure that the total of the blocks need to be eaqual to twelve.
 
+
 **Thats all. Let's see the code in discreptive view.**
 
-1. Open a `wrapper` class first. 
+Open a `wrapper` class first. 
 ```sh
 <div class="wrapper"></div>
 ```
 > The default max-width(Maximum width) is 1200px. You can change this value or overwrite using css, if you want to change max > width of your site. And next,
 
-2. Add a `row` class inside the `wrapper`
+
+Add a `row` class inside the `wrapper`
 ```sh
 <div class="wrapper">
 	<div class="row"></div>
 </div>
 ```
 
-3. Now you can add your preferred grid structure in to the `row`. The total of the blocks needs to be equal to twelve(12).  
+
+Now you can add your preferred grid structure in to the `row`. The total of the blocks needs to be equal to twelve(12).  
 ```sh
 <div class="wrapper">
 	<div class="row">
@@ -63,6 +66,7 @@ Add the html into the `body` section.
 	</div>
 </div>
 ```
+
 **Enjoy it (y)**
 
 
