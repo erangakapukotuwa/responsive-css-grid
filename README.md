@@ -36,8 +36,7 @@ Add the html into the `body` section.
 > Please make sure that the total of the blocks need to be eaqual to twelve.
 
 
-**Thats all. Let's see the code in discreptive view.**
-
+#### Thats all. Let's see the code in discreptive view.
 Open a `wrapper` class first. 
 ```sh
 <div class="wrapper"></div>
