@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Responsive-css-grid by erangakapukotuwa</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Responsive-css-grid</h1>
+          <h2>a responsive css grid</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/erangakapukotuwa/responsive-css-grid/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/erangakapukotuwa/responsive-css-grid/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/erangakapukotuwa/responsive-css-grid" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="responsive-css-grid" class="anchor" href="#responsive-css-grid" aria-hidden="true"><span class="octicon octicon-link"></span></a>responsive-css-grid</h1>
+
+<p>This is a simple responsive grid script. You can divide your page into twelve equal parts. The smallest block, class name is <code>one-block</code>. And the next one is <code>two-block</code>. Other names are inclemently changing till the <code>twelve-block</code>. You can use different combination of these blocks to fill each rows as your prefer and the requirement. You will make a good sense after doing the following steps. Try it. It is quite simple. :)  </p>
+
+<h3>
+<a id="available-class-namesblocks" class="anchor" href="#available-class-namesblocks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Available class names(Blocks)</h3>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block two-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block three-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block four-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+...
+...
+<span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block twelve-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span></pre></div>
+
+<h3>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
+
+<p>Include the <code>responsive-css-grid.css</code> file in the header part of your HTML page.</p>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>link rel=<span class="pl-s1"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-s3">type</span>=<span class="pl-s1"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> href=<span class="pl-s1"><span class="pl-pds">"</span>parth/to/css-responsive-grid.css<span class="pl-pds">"</span></span>/<span class="pl-k">&gt;</span></pre></div>
+
+<p>Add the html into the <code>body</code> section. </p>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>wrapper<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>row<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        ......
+        .....
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span></pre></div>
+
+<blockquote>
+<p>Please make sure that the total of the blocks need to be eaqual to twelve.</p>
+</blockquote>
+
+<h4>
+<a id="thats-all-lets-see-the-code-in-discreptive-view" class="anchor" href="#thats-all-lets-see-the-code-in-discreptive-view" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thats all. Let's see the code in discreptive view.</h4>
+
+<p>Open a <code>wrapper</code> class first. </p>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>wrapper<span class="pl-pds">"</span></span><span class="pl-k">&gt;&lt;</span>/div<span class="pl-k">&gt;</span></pre></div>
+
+<blockquote>
+<p>The default max-width(Maximum width) is 1200px. You can change this value or overwrite using css, if you want to change max &gt; width of your site. And next,</p>
+</blockquote>
+
+<p>Add a <code>row</code> class inside the <code>wrapper</code></p>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>wrapper<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>row<span class="pl-pds">"</span></span><span class="pl-k">&gt;&lt;</span>/div<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span></pre></div>
+
+<p>Now you can add your preferred grid structure in to the <code>row</code>. The total of the blocks needs to be equal to twelve(12).  </p>
+
+<div class="highlight highlight-sh"><pre><span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>wrapper<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>row<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        ......
+        .....
+        <span class="pl-k">&lt;</span>div class=<span class="pl-s1"><span class="pl-pds">"</span>block one-block<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>Your content ...<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span></pre></div>
+
+<p><strong>Enjoy it (y)</strong></p>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>This projected is licensed under the terms of the MIT license</p>
+        </section>
+
+        <footer>
+          Responsive-css-grid is maintained by <a href="https://github.com/erangakapukotuwa">erangakapukotuwa</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
