@@ -1,5 +1,9 @@
 # responsive-css-grid 
-This is a simple responsive grid script. You can divide your page into twelve equal parts. The smallest block, class name is `one-block`. And the next one is `two-block`. Other names are inclemently changing till the `twelve-block`. You can use different combination of these blocks to fill each rows as your prefer and the requirement. You will make a good sense after doing the following steps. Try it. It is quite simple. :)  
+This is a simple responsive grid script. You can divide your page into twelve equal parts. The smallest block, class name is `one-block`. And the next one is `two-block`. Other names are inclemently changing till the `twelve-block`. You can use different combination of these blocks to fill each rows as your prefer and the requirement. A screenshot is given bellow. 
+
+![solarized palette](https://github.com/erangakapukotuwa/responsive-css-grid/demo/css-responsive-grid.png)
+
+You will make a good sense after doing the following steps. Try it. It is quite simple. :)  
 
 ### Available class names(Blocks)
 ```sh
